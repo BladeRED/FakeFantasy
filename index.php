@@ -8,10 +8,12 @@
 
     <!-- ICI SECTION TITRE -->
     <section>
-        <div class="container-fluid border title my-5 py-5">
-
-            <h1 class="text-center">TITRE</h1>
-            <h3 class="text-center">"Citation"</h3>
+        <div class="container-fluid title mb-5 py-5">
+            <div class="mt-5 py-5">
+                <h1 class="text-center text-white">FAKE FANTASY</h1>
+                <h3 class="text-center text-white">"Une bonne grosse citation sa mère pour impressioner ta
+                    grand-mère"</h3>
+            </div>
         </div>
 
 

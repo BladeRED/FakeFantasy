@@ -1,3 +1,32 @@
+/* POLICES */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Tinos&display=swap');
+
+/* MODIFICATIONS DES ECRITURES */
+
+h1, .logo {
+
+    font-family: "Tinos", Tahoma, Impact, "Times New Roman", sans-serif;
+    font-size: 96px;
+    text-shadow: 0 0 15px black, 0 0 10px black;
+
+}
+
+.logo {
+
+    font-family: "Tinos", Tahoma, Impact, "Times New Roman", sans-serif;
+    font-size: 24px;
+    text-shadow: 0 0 15px black, 0 0 10px black;
+
+}
+
+h3 {
+    font-family: "Noto Sans", Tahoma, Impact, "Times New Roman", sans-serif;
+    font-size: 28px;
+    text-shadow: 0 0 15px black, 0 0 10px black;
+}
+
+
 body {
 
     background-color: black;
@@ -5,10 +34,20 @@ body {
 
 }
 
+.h-position {
+
+    position: absolute !important;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+
+}
+
 .title {
 
-    background-image: url("https://lecturesmmdoriane.files.wordpress.com/2018/04/fantasy_world.jpg");
+    background-image: url("https://c.wallhere.com/photos/96/8c/dragon_fire_Dragon_Wings_wings_fantasy_art_World_of_Warcraft_video_games_Deathwing-111021.jpg!d");
     height: 720px;
+    width: 100%;
 
 
 }

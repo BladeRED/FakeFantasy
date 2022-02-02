@@ -33,6 +33,10 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
 
+    <!--ANIMATE ON SCROLL-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+
     <!--CSS de base-->
     <link href="css/style.css" rel="stylesheet"/>
     <title>Fake Fantasy</title>
@@ -40,6 +44,7 @@
 
 </head>
 <body>
+
 <!-- ICI MA NAVBAR -->
 <header class="h-position">
     <section>
@@ -66,136 +71,142 @@
             </div>
         </div>
 
-        <section>
-            <div class="container">
-                <div class="background-img d-flex align-items-center">
-                    <!-- Hover #1 -->
-                    <div class="box-1 ms-5 mt-5">
-                        <h2 class="text-center text-white">Univers</h2>
-                        <a href="#" class="btn btn-one text-white btn-lg">
-                            <span>Plus d'informations</span>
-                        </a>
-                    </div>
+    </section>
+
+    <section>
+        <div class="container" data-aos="fade-up" data-aos-duration="1000">
+            <div class="background-img d-flex align-items-center">
+                <!-- Hover #1 -->
+                <div class="box-1 ms-5 mt-5">
+                    <h2 class="text-center text-white">Univers</h2>
+                    <a href="#" class="btn btn-one text-white btn-lg">
+                        <span>Plus d'informations</span>
+                    </a>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section>
-            <div class="container animate__animated animate__fadeIn">
-                <div class="background-img2 d-flex align-items-center">
-                    <!-- Hover #1 -->
-                    <div class="box-1 ms-5 mt-5">
-                        <h2 class="text-center text-white">Personnages</h2>
-                        <a href="#" class="btn btn-one text-white btn-lg">
-                            <span>Plus d'informations</span>
-                        </a>
-                    </div>
+    <section>
+        <div class="container" data-aos="fade-down" data-aos-duration="1000">
+            <div class="background-img2 d-flex align-items-center">
+                <!-- Hover #1 -->
+                <div class="box-1 ms-5 mt-5">
+                    <h2 class="text-center text-white">Personnages</h2>
+                    <a href="#" class="btn btn-one text-white btn-lg">
+                        <span>Plus d'informations</span>
+                    </a>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- ICI SECTION BLOC DE TEXTE -->
-        <section>
+    <!-- ICI SECTION BLOC DE TEXTE -->
+    <section>
 
-            <div class="container mb-5 py-5 animate__animated animate__fadeIn">
-                <h3 class="text-center text-white mb-5">Un mot du Quentin</h3>
-                <p class="text-white">Nam sed odio vel urna aliquet maximus ut et risus. Aenean sollicitudin massa nec
-                    velit
-                    malesuada aliquet.
-                    Donec porta eleifend condimentum. Proin vitae dui leo. Nulla odio velit, tincidunt eget turpis eu,
-                    commodo
-                    hendrerit arcu. In hac habitasse platea dictumst. Proin sapien ex, ultrices vel metus quis, congue
-                    faucibus
-                    neque. Nulla ac euismod diam. Quisque interdum massa vel orci efficitur accumsan. Vivamus molestie
-                    tristique
-                    felis. In bibendum libero ac pellentesque hendrerit. Aliquam vitae leo quis velit gravida luctus
-                    vitae
-                    sit
-                    amet ligula. Duis tincidunt vehicula lectus, rhoncus luctus tortor mollis sit amet.<br/><br/>
-                    Praesent
-                    tristique,
-                    libero quis tempus suscipit, velit nisi ultrices mi, at aliquam risus mauris tincidunt massa.
+        <div class="container mb-5 py-5" data-aos="fade-out" data-aos-duration="1000">
+            <h3 class="text-center text-white mb-5">Un mot du Quentin</h3>
+            <p class="text-white">Nam sed odio vel urna aliquet maximus ut et risus. Aenean sollicitudin massa nec
+                velit
+                malesuada aliquet.
+                Donec porta eleifend condimentum. Proin vitae dui leo. Nulla odio velit, tincidunt eget turpis eu,
+                commodo
+                hendrerit arcu. In hac habitasse platea dictumst. Proin sapien ex, ultrices vel metus quis, congue
+                faucibus
+                neque. Nulla ac euismod diam. Quisque interdum massa vel orci efficitur accumsan. Vivamus molestie
+                tristique
+                felis. In bibendum libero ac pellentesque hendrerit. Aliquam vitae leo quis velit gravida luctus
+                vitae
+                sit
+                amet ligula. Duis tincidunt vehicula lectus, rhoncus luctus tortor mollis sit amet.<br/><br/>
+                Praesent
+                tristique,
+                libero quis tempus suscipit, velit nisi ultrices mi, at aliquam risus mauris tincidunt massa.
 
-                    Nulla mattis, eros congue ultrices egestas, lorem felis ornare ante, vitae consectetur massa augue
-                    eget
-                    metus. Integer pulvinar viverra lectus. Phasellus luctus sodales quam nec tempor. Vestibulum
-                    lobortis
-                    leo
-                    eget lacinia egestas. Aenean volutpat lacinia purus, quis sodales ipsum pulvinar non. <br/><br/>Curabitur
-                    at
-                    malesuada
-                    ligula. Suspendisse nunc sapien, bibendum eleifend nisi eget, hendrerit bibendum enim. Morbi at
-                    cursus
-                    est.
+                Nulla mattis, eros congue ultrices egestas, lorem felis ornare ante, vitae consectetur massa augue
+                eget
+                metus. Integer pulvinar viverra lectus. Phasellus luctus sodales quam nec tempor. Vestibulum
+                lobortis
+                leo
+                eget lacinia egestas. Aenean volutpat lacinia purus, quis sodales ipsum pulvinar non. <br/><br/>Curabitur
+                at
+                malesuada
+                ligula. Suspendisse nunc sapien, bibendum eleifend nisi eget, hendrerit bibendum enim. Morbi at
+                cursus
+                est.
 
-                    Ut vel ultrices ex. Suspendisse mauris nulla, malesuada ut pretium non, mattis at eros. Suspendisse
-                    id
-                    nisi
-                    nec nibh cursus hendrerit. Nullam malesuada sagittis lectus a congue. Suspendisse potenti. Quisque
-                    id
-                    sagittis lacus. Phasellus vitae dapibus odio. Nam dapibus porttitor purus. Morbi hendrerit
-                    scelerisque
-                    nibh,
-                    eget gravida nibh. Sed ut mattis purus, sit amet euismod velit. Aenean non lorem tellus. Ut ac
-                    faucibus
-                    nibh.<br/><br/> Quisque mollis nunc et odio rhoncus, eu viverra justo facilisis. Etiam hendrerit
-                    sapien
-                    dolor,
-                    eu
-                    pulvinar urna fringilla eu.
+                Ut vel ultrices ex. Suspendisse mauris nulla, malesuada ut pretium non, mattis at eros. Suspendisse
+                id
+                nisi
+                nec nibh cursus hendrerit. Nullam malesuada sagittis lectus a congue. Suspendisse potenti. Quisque
+                id
+                sagittis lacus. Phasellus vitae dapibus odio. Nam dapibus porttitor purus. Morbi hendrerit
+                scelerisque
+                nibh,
+                eget gravida nibh. Sed ut mattis purus, sit amet euismod velit. Aenean non lorem tellus. Ut ac
+                faucibus
+                nibh.<br/><br/> Quisque mollis nunc et odio rhoncus, eu viverra justo facilisis. Etiam hendrerit
+                sapien
+                dolor,
+                eu
+                pulvinar urna fringilla eu.
 
-                    Nam quis nibh velit. Aliquam ut tortor purus. Curabitur risus ex, rutrum nec lobortis at, rhoncus at
-                    felis.
-                    Suspendisse congue mi id mi posuere, a facilisis elit suscipit. Proin dignissim ullamcorper odio sed
-                    ornare.
-                    Donec sed ligula iaculis, ultricies nulla nec, vestibulum diam. Cras lacus justo, sollicitudin vitae
-                    eleifend vel, pellentesque at ante. Donec ultricies ac nulla sit amet ullamcorper.<br/><br/> Nunc
-                    pharetra,
-                    dui et
-                    sodales tincidunt, est leo tempus felis, tincidunt laoreet sapien odio non leo. Pellentesque
-                    habitant
-                    morbi
-                    tristique senectus et netus et malesuada fames ac turpis egestas.
+                Nam quis nibh velit. Aliquam ut tortor purus. Curabitur risus ex, rutrum nec lobortis at, rhoncus at
+                felis.
+                Suspendisse congue mi id mi posuere, a facilisis elit suscipit. Proin dignissim ullamcorper odio sed
+                ornare.
+                Donec sed ligula iaculis, ultricies nulla nec, vestibulum diam. Cras lacus justo, sollicitudin vitae
+                eleifend vel, pellentesque at ante. Donec ultricies ac nulla sit amet ullamcorper.<br/><br/> Nunc
+                pharetra,
+                dui et
+                sodales tincidunt, est leo tempus felis, tincidunt laoreet sapien odio non leo. Pellentesque
+                habitant
+                morbi
+                tristique senectus et netus et malesuada fames ac turpis egestas.
 
-                    Aliquam mattis tempor velit, at elementum lacus lobortis id. Nullam dictum ex ut nibh vestibulum,
-                    eget
-                    lobortis nisl luctus. Integer mauris dui, aliquet interdum nibh vel, auctor ullamcorper massa.
-                    Phasellus
-                    quis mauris nec leo cursus faucibus ut sit amet leo. Vestibulum ipsum mi, rutrum vitae ante vel,
-                    malesuada
-                    sollicitudin diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-                    himenaeos. Sed sit amet pretium metus.</p>
-            </div>
-        </section>
-
-
-        <!-- ICI SECTION RESEAUX SOCIAUX -->
-        <section>
-            <h3 class="text-center text-white mb-5">RESEAUX SOCIAUX</h3>
-            <div class="container mb-5 d-flex justify-content-center">
-
-                <ul class="icon-list">
-                    <li class="icon-item">
-                        <a href="#" class="icon-link"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li class="icon-item">
-                        <a href="#" class="icon-link"><i class="fab fa-facebook-f"></i></a>
-                    </li>
-                    <li class="icon-item">
-                        <a href="#" class="icon-link"><i class="fab fa-dribbble"></i></a>
-                    </li>
-                    <li class="icon-item">
-                        <a href="#" class="icon-link"><i class="fab fa-youtube"></i></a>
-                    </li>
-                    <li class="icon-item">
-                        <a href="#" class="icon-link"><i class="fab fa-linkedin-in"></i></a>
-                    </li>
-                </ul>
+                Aliquam mattis tempor velit, at elementum lacus lobortis id. Nullam dictum ex ut nibh vestibulum,
+                eget
+                lobortis nisl luctus. Integer mauris dui, aliquet interdum nibh vel, auctor ullamcorper massa.
+                Phasellus
+                quis mauris nec leo cursus faucibus ut sit amet leo. Vestibulum ipsum mi, rutrum vitae ante vel,
+                malesuada
+                sollicitudin diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                himenaeos. Sed sit amet pretium metus.</p>
+        </div>
+    </section>
 
 
-            </div>
-            </div>
-        </section>
+    <!-- ICI SECTION RESEAUX SOCIAUX -->
+    <section>
+        <h3 class="text-center text-white mb-5">RESEAUX SOCIAUX</h3>
+        <div class="container mb-5 d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="1000">
+
+            <ul class="icon-list">
+                <li class="icon-item">
+                    <a href="#" class="icon-link"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="icon-item">
+                    <a href="#" class="icon-link"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="icon-item">
+                    <a href="#" class="icon-link"><i class="fab fa-dribbble"></i></a>
+                </li>
+                <li class="icon-item">
+                    <a href="#" class="icon-link"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li class="icon-item">
+                    <a href="#" class="icon-link"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="row d-flex justify-content-center mb-5 rowconsoles">
+            <img src="https://www.devilmaycry.com/5se/assets/images/plat-logo.png"
+                 alt="logoPS5" class="consoles img-fluid">
+        </div>
+
+    </section>
 
 
 </main>
@@ -203,20 +214,26 @@
     <!-- ICI MON FOOTER -->
     <section>
         <div class="container c-footer">
-            <div class="row d-flex justify-content-start">
+            <div class="row d-flex justify-content-start linkfooter ">
                 <a href="#">Cookie Notice</a>
                 <a href="#">Terms of Use</a>
                 <a href="#">Privacy Notice</a>
                 <a href="#">Material Usage Policy</a>
             </div>
-            <div class="row d-flex">
-                <img src=""
-                     alt="logo_pegi">
+            <div class="row d-flex justify-content-end">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/PEGI_16.svg/840px-PEGI_16.svg.png"
+                     alt="logo_pegi" class="pegi">
             </div>
         </div>
     </section>
 
 </footer>
 
+
+<!--SCRIPT AOS A LANCER EN FIN DU CODE-->
+
+<script>
+    AOS.init();
+</script>
 </body>
 </html>

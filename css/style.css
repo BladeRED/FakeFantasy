@@ -50,11 +50,10 @@ p {
 
 
 body {
-
-    background-color: black;
-
-
+    background: rgb(0, 0, 0);
+    background: linear-gradient(45deg, rgba(0, 0, 0, 1) 13%, rgba(73, 9, 5, 1) 100%);
 }
+
 
 .h-position {
 
@@ -79,6 +78,13 @@ body {
 
 }
 
+.pegi {
+
+    max-height: 150px;
+    max-width: 150px;
+
+}
+
 .diapo {
 
 
@@ -86,6 +92,33 @@ body {
     border-radius: 4px;
     box-shadow: 0px 0px 5px #AA2A2A;
     position: relative;
+}
+
+.linkfooter.row > * {
+
+    width: auto !important;
+    text-decoration: none;
+    font-family: "Noto Sans", Tahoma, Impact, "Times New Roman", sans-serif;
+    font-size: 14px;
+    color: white;
+
+}
+
+.linkfooter.row > a:hover {
+
+    color: grey !important;
+
+}
+
+.consoles {
+
+    max-height: 250px;
+    max-width: 500px;
+
+}
+
+.rowconsoles.row {
+    --bs-gutter-x: 0rem !important;
 }
 
 .border-img {

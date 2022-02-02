@@ -117,6 +117,19 @@ body {
 
 }
 
+.h-consoles {
+
+    max-height: 125px;
+    max-width: 250px;
+
+}
+
+.dropdown-menu li > a:hover {
+
+    color: black !important;
+
+}
+
 .rowconsoles.row {
     --bs-gutter-x: 0rem !important;
 }
